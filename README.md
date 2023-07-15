@@ -1,10 +1,12 @@
 # Django Image Search Application
+A simple image search application using django + unsplash api
 
-## Clone this project
-```
-git clone django-image-search-application
-```
 ## Setup Django Project
+
+### Clone this project
+```
+git clone https://github.com/Aashishkumar123/django-image-search-application
+```
 
 ### Install following dependencies
 ```
@@ -21,6 +23,7 @@ UNSPLASH_CLIENT_ID= --- add the unsplash client id ---
 python manage.py runserver
 ```
 
-## Unsplash
-1. Create an account in unsplash and go to https://unsplash.com/developers and here create an app to get the ```UNSPLASH_CLIENT_ID```
+## Get the UNSPLASH_CLIENT_ID
+1. Create an account in unsplash
+2. Go to https://unsplash.com/developers and here create an app to get the ```UNSPLASH_CLIENT_ID```
 
